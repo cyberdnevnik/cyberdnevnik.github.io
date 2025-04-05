@@ -4,13 +4,13 @@ icon: fas fa-book
 order: 1
 ---
 
-{% assign articles = site.categories.Articles %}
+{% assign articles = site.articles %}
 {% if articles.size > 0 %}
 <ul>
-  {% for post in articles %}
+  {% for article in articles %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+      <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+      <small>({{ article.date | date: "%Y-%m-%d" }})</small>
     </li>
   {% endfor %}
 </ul>

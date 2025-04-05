@@ -19,7 +19,7 @@ title: CyberDnevnik # the main title
 tagline: Journaling through cyberspace # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Blog all about cybersecurtiy which includes hacking, cloud securtiy, management and more.
+  A comprehensive cybersecurity blog featuring in-depth content on ethical hacking, cloud security, cybersecurity management, and security best practices, along with insights into the latest trends in information security. In addition to technical topics, this blog also includes personal journal-style articles sharing real-world experiences, daily challenges, achievements, and lessons learned from within the cybersecurity field.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -28,8 +28,8 @@ url: "https://cyberdnevnik.github.io"
 github:
   username: cyberdnevnik # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# twitter:
+#   username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: info@cyberdnevnik.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # https://twitter.com/username # change to your Twitter homepage
+    # https://twitter.com/username
     - https://github.com/cyberdnevnik # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -170,6 +170,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  articles:
+    output: true
+    permalink: /articles/:title/
 
 defaults:
   - scope:
@@ -192,6 +195,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: "_articles"
+    values:
+      layout: post
 
 sass:
   style: compressed
