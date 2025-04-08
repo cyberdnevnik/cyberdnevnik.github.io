@@ -1,19 +1,19 @@
 ---
-title: Articles
+title: Journals
 icon: fas fa-book
 order: 1
 ---
 
-{% assign articles = site.articles %}
-{% if articles.size > 0 %}
+{% assign journals = site.journals %}
+{% if journals.size > 0 %}
 <ul>
-  {% for article in articles %}
+  {% for journal in journals %}
     <li>
-      <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-      <small>({{ article.date | date: "%Y-%m-%d" }})</small>
+      <a href="{{ journal.url | relative_url }}">{{ journal.title }}</a>
+      <small>({{ journal.date | date: "%Y-%m-%d" }})</small>
     </li>
   {% endfor %}
 </ul>
 {% else %}
-<p>No articles found.</p>
+<p>No journals found.</p>
 {% endif %}
