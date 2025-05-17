@@ -14,10 +14,10 @@ image:
 
 If you want to read more in detail visit Fortinet Cybersecurity Skills Gap report
 
-## What does this gap mean for me and ow can I help fill it?
+## What does this gap mean for me and how can I help fill it?
 
 This gap consists of many different fields and some of those are:
-**1. Cloud Security:** Deals with protecting data, applications, and services stored in the cloud.
+1. **Cloud Security:** Deals with protecting data, applications, and services stored in the cloud.
     
 2. **Endpoint Security:** Concerned with securing end-user devices like computers, mobile devices, and IoT devices.
 
@@ -87,6 +87,6 @@ Thank you for sticking with me until the end. I hope you found it useful.
 
 For all the questions and all the feedback on the subject, you can find me on my [LinkedIn](https://linkedin.com/in/vedran-brodar).
 
-Cheers,
+Cheers,  
 Vedran
 
