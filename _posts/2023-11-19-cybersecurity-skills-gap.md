@@ -7,7 +7,7 @@ date: 2025-02-09 16:00:00
 categories: [Articles, Cybersecurity]
 tags: [Cybersecurity, Red Team, Blue Team]
 image:
-  path: /assets/img/posts/img_cybersecurity_skills_gap/cybersecurity_skills_in_high_demands.webp
+  path: /assets/img/posts/img_cybersecurity_skills_gap/cybersecurity_skills_in_high_demand.webp
   alt: Cybersecurity Skills in High Demand — image courtesy of Fortinet and World Economic Forum
 ---
 ** Bear in mind that Fortinet image was posted by the World Economic Forum on February 1st, 2023 and CSO report was posted on October 31st, 2023, so you can already see the gap increasing by almost 600 000 vacant Cybersecurity jobs in just under a year. **
