@@ -45,7 +45,8 @@ Well to answer that question we need to first make a distinction between the **B
 
 Here is a visual way to represent what I mean:
 
-![Cybersecurity teams - image courtey of H-X Technologies](https://www.h-x.technology/wp-content/uploads/2021/02/Team-Infogr..gif)
+![Cybersecurity teams - image courtesy of H-X Technologies](https://www.h-x.technology/wp-content/uploads/2021/02/Team-Infogr..gif)
+*Cybersecurity teams - image courtesy of H-X Technologies*
 
 As seen in the picture above there are differences and common grounds for the teams.
 
@@ -63,7 +64,8 @@ As seen in the picture above there are differences and common grounds for the te
 
 On the other end of the spectrum would be the **Red Team**. A team of **ethical hackers**, also known as **Penetration testers**, which plays a crucial role in identifying vulnerabilities and weaknesses within computer systems, networks, applications, and other digital infrastructures. They use techniques and attacks real-world hackers would use, but for a good cause: to prevent the occurrence of real attacks on behalf of clients.
 
-![Penetration testing stages - image courtey of Software Testing Help](https://miro.medium.com/v2/resize:fit:640/format:webp/0*OEFArU8yi_HkaQjt.jpg)
+![Penetration testing stages - image courtesy of Software Testing Help](https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/02/Certified-Ethical-Hacking.jpg)
+*Penetration testing stages - image courtesy of Software Testing Help*
 
 Middle ground where the **Red Team** and **Blue Team** would find common ground would be **Purple team**.
 
