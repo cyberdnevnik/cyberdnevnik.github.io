@@ -253,6 +253,3 @@ Cheers,
 Vedran.
 
 
-
-## Conclusion
-
