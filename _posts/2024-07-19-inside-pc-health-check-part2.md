@@ -135,7 +135,7 @@ Following that, we have a call to `RegGetValueW()` function which retrieves the 
 
 ![Untitled](/assets/img/posts/img_inside_pc_health_check/Untitled%2047.png)
 
-So first argument is `hkey` where handle to an open registry key is placed or a constant value. Here `0xFFFFFFFF80000002` value is being passed which after searching around equates to `HKEY_LOCAL_MACHINE` predefined key ([http://www.dsource.org/projects/tango/ticket/820](http://www.dsource.org/projects/tango/ticket/820)).
+So first argument is `hkey` where handle to an open registry key is placed or a constant value. Here `0xFFFFFFFF80000002` value is being passed which after searching around equates to `HKEY_LOCAL_MACHINE` predefined key ([https://www.dsource.org/projects/tango/ticket/820](http://www.dsource.org/projects/tango/ticket/820)).
 
 Next argument is `lpSubKey` which takes path of the registry key. In our case this is the string `"Hardware\\Description\\System\\CentralProcessor\\0”`.
 
