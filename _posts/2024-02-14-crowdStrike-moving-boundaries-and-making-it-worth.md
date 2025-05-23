@@ -42,8 +42,7 @@ Falcon’s built-in capabilities include (but are not limited to):
 * **Threat Hunting** — as a proactive approach to searching and identifying non-remediated threats within the organization’s network, threat hunting uses the power of the threat graph to hunt, investigate and guide security teams on any malicious activities in the environment. As an essential part of cyber defense, threat hunting uses queries and automation to extract more specific data for possible hunting leads. Falcon provides a managed threat hunting service, `Falcon Overwatch` module with 24/7 human expertise, threat intelligence and real-time visibility into threat graph data.
 * **IT Hygiene** — The `Falcon Discover` module provides full visibility into who, what and where entities inside the organization are accessed. Keeping track of all assets, accounts and applications in one place improves an organization’s ability to spot blind spots, that is, find out where it is least protected and close those gaps on time. CrowdStrike separates managed (having sensor installed) from unmanaged (not having sensor installed) devices and provides a list of all applications installed and accounts accessing those devices with information on successful and failed logins.
 * **Vulnerability management** — a continuous process of identifying, prioritizing and remediating weaknesses in IT assets and configurations. The Falcon Spotlight module offers a real-time assessment of vulnerability exposure in the organization with vulnerability prioritization and remediation guidance. Alongside the standard scoring system, CVSS, Falcon uses its own ExPRT.AI (Expert Prediction Rating AI) model which is dynamically adjusted based on the change from the threat intelligence data and the likelihood of the exploitation.
-> [!NOTE]
->recently Falcon merged the Discover and Spotlight modules into `Exposure Management module`
+[!NOTE] recently Falcon merged the Discover and Spotlight modules into `Exposure Management module`
 
 ![Vulnerability Management cycle](/assets/img/posts/img_crowdstrike_moving_boundaries/vulnerability-management-cycle.png)
 _Figure 2: Vulnerability Management cycle — courtesy of crowdstrike.com_
@@ -64,7 +63,7 @@ Depending on the needs and tools integrated via API, you can choose both read an
 Some of the tools that security teams and clients integrate with CrowdStrike are SIEM, IBM’s QRadar, ServiceNow, Microsoft Sentinel, and many more. The complete list can be found on CrowdStrike’s [Marketplace](https://marketplace.crowdstrike.com/).
 
 
-## In conclusion…
+## Conclusion
 CrowdStrike Falcon is a complete cloud security solution that covers endpoint security with its NGAV and EDR capabilities. With its modules, Falcon provides capabilities for threat-hunting, visibility into threat intelligence data along with IT hygiene, protection against identity-based attacks and account misconfigurations. All functionalities are monitored in one central console and integrated into the Falcon sensor which functions by monitoring and sending all endpoint telemetry to the CrowdStrike cloud and applying policies configured in the console.
 
 CrowdStrike learns independently and with its flexible nature, it provides easy access and integration with other IT and security applications.
