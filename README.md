@@ -5,25 +5,25 @@
 
 ## Welcome to our blog :closed_lock_with_key:
 
-Sharing insights, findings and thoughts on cyber topics we work on and the ones that spark our interest. This blog is built on genuine interest, continuous learning and a commitment to quality content. From more technical write-ups and reflections on industry trends to personal struggles and ideas in our journals we aim to make cybersecurity more accessible and engaging - whether you’re an expert, student or starting to explore it.
+Sharing insights, findings and thoughts on cyber topics we work on and the ones that spark our interest. <br>This blog is built on genuine interest, continuous learning and a commitment to quality content. From more technical write-ups and reflections on industry trends to personal struggles and ideas in our journals we aim to make cybersecurity more accessible and engaging - whether you’re an expert, student or starting to explore it.
 
 
 ## Tabs
 
-* :pushpin: Home
-* Journals
-* Categories
-* Tags
-* Archives
-* About
+:pushpin: Home<br>
+:pushpin: Journals<br>
+:pushpin: Categories<br>
+:pushpin: Tags<br>
+:pushpin: Archives<br>
+:pushpin: About<br>
 
 
 ## Contributors
 
-:handshake: Find us on Linkedin:<br>
-@hrvoje-filakovic<br>
-@lenicmartina99<br>
-@vedran-brodar
+Find us on Linkedin :handshake:<br>
+[@hrvoje-filakovic] (https://www.linkedin.com/in/hrvoje-filakovic/)<br>
+[@lenicmartina99] (https://www.linkedin.com/in/lenicmartina99/)<br>
+[@vedran-brodar] (https://www.linkedin.com/in/vedran-brodar/)
 
 
 ## Usage
