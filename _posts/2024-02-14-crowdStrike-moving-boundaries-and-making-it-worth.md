@@ -7,7 +7,7 @@ date: 2024-02-14 12:00:00
 categories: [Articles, Cybersecurity]
 tags: [Cybersecurity, Endpoint Security, EDR]
 image:
-  path: /assets/img/posts/img_crowdstrike_moving_boundaries/crowdstrike-1.webp
+  path: /assets/img/posts/img_crowdstrike_moving_boundaries/Header.webp
   alt: CrowdStrike logo
 ---
 For several years, CrowdStrike has been recognized as a Leader for EDR (Endpoint Detection and Response) and EPP (Endpoint Protection Platform) in [Gartner Magic Quadrant](https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2024-gartner-magic-quadrant-endpoint-protection/) and [The Forrester Wave](https://www.crowdstrike.com/en-us/resources/reports/forrester-wave-mdr-services-q1-2025/).
