@@ -3,14 +3,14 @@
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-## Welcome to our blog
+## Welcome to our blog :closed_lock_with_key:
 
 Sharing insights, findings and thoughts on cyber topics we work on and the ones that spark our interest. This blog is built on genuine interest, continuous learning and a commitment to quality content. From more technical write-ups and reflections on industry trends to personal struggles and ideas in our journals we aim to make cybersecurity more accessible and engaging - whether you’re an expert, student or starting to explore it.
 
 
 ## Tabs
 
-* Home
+* :pushpin: Home
 * Journals
 * Categories
 * Tags
@@ -20,9 +20,9 @@ Sharing insights, findings and thoughts on cyber topics we work on and the ones 
 
 ## Contributors
 
-Find us on Linkedin:
-@hrvoje-filakovic
-@lenicmartina99
+:handshake: Find us on Linkedin:<br>
+@hrvoje-filakovic<br>
+@lenicmartina99<br>
 @vedran-brodar
 
 
