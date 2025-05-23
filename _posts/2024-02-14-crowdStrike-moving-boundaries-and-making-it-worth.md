@@ -29,8 +29,9 @@ The product is based on:
 
 CrowdStrike focuses on an all-in-one security approach by implementing functionalities as today’s threat landscape demands it while reducing the impact on the endpoint performance.
 
-![CrowdStrike architecture](\assets\img\posts\img_crowdstrike_moving_boundaries\CS_architecture.png)
+![CrowdStrike architecture](/assets/img/posts/img_crowdstrike_moving_boundaries/CS_architecture.png)
 _Figure 1: Falcon platform overview — Courtesy of crowdstrike.com/blog/_
+
 
 Falcon’s built-in capabilities include (but are not limited to):
 
@@ -44,7 +45,7 @@ Falcon’s built-in capabilities include (but are not limited to):
 > [!NOTE]
 >recently Falcon merged the Discover and Spotlight modules into `Exposure Management module`
 
-![Vulnerability Management cycle](\assets\img\posts\img_crowdstrike_moving_boundaries\vulnerability-management-cycle.png)
+![Vulnerability Management cycle](/assets/img/posts/img_crowdstrike_moving_boundaries/vulnerability-management-cycle.png)
 _Figure 2: Vulnerability Management cycle — courtesy of crowdstrike.com_
 
 ***Identity Protection** — integrates network traffic and user behavior monitoring to the complete overview of the security posture. Falcon’s Identity Protection enforces additional security measures on Domain Controllers and Microsoft Active Directory by providing visibility and detecting identity-related anomalies across the organizational landscape. Falcon IDP module sets up the baseline for all observed network traffic, user’s behavior, roles, system access and more, after which any action that deviates from the learned can be interpreted as an anomaly and is followed by an investigation. Identity Protection module can be integrated with the organization’s existing IAM tools and processes helping and complementing them with its threat detection and prevention capabilities.
@@ -55,7 +56,7 @@ Falcon bundles are divided based on the size of the company. It offers bundles (
 ## Falcon API and integrations
 Developed as an “API first platform”, CrowdStrike provides great flexibility when it comes to integration with other IT tools. It is a set of REST-based endpoints that allow performing actions programmatically instead of using the console. The UI administrators can define multiple API clients along with the required scope, depending on which access point is needed (detections, hosts, policies, modules, etc). The customer or other security teams can query the created API using the given credentials. It is based on the OAuth2 authentication.
 
-![CrowdStrike API](\assets\img\posts\img_crowdstrike_moving_boundaries\api_call.png)
+![CrowdStrike API](/assets/img/posts/img_crowdstrike_moving_boundaries/api_call.png)
 _Figure 3: Understanding CrowdStrike API — courtesy of crowdstrike.com/blog/_
 
 Depending on the needs and tools integrated via API, you can choose both read and write permissions for most of the scopes available, meaning that you can “remotely” manage the host’s network containment status, IOCs or IOAs, manage detection status and much more.
@@ -68,8 +69,6 @@ CrowdStrike Falcon is a complete cloud security solution that covers endpoint se
 
 CrowdStrike learns independently and with its flexible nature, it provides easy access and integration with other IT and security applications.
 
-
 For more information on the product see the links below:
-
 https://www.crowdstrike.com
 https://www.crowdstrike.com/blog/tech-center/
