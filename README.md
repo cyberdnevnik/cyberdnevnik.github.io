@@ -21,9 +21,9 @@ Sharing insights, findings and thoughts on cyber topics we work on and the ones 
 ## Contributors
 
 Find us on Linkedin :handshake:<br>
-[@hrvoje-filakovic] (https://www.linkedin.com/in/hrvoje-filakovi%C4%87/)<br>
-[@lenicmartina99] (https://www.linkedin.com/in/lenicmartina99/)<br>
-[@vedran-brodar] (https://www.linkedin.com/in/vedran-brodar/)
+[@hrvoje-filakovic](https://www.linkedin.com/in/hrvoje-filakovi%C4%87/) <br>
+[@lenicmartina99](https://www.linkedin.com/in/lenicmartina99/) <br>
+[@vedran-brodar](https://www.linkedin.com/in/vedran-brodar/)
 
 
 ## Usage
