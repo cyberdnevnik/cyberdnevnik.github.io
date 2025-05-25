@@ -1,5 +1,5 @@
 ---
-title: Endpoint Security: EDR/MDR/XDR solutions
+title: Endpoint Security - EDR/MDR/XDR solutions
 author: martina
 toc: true
 toc_min_header: 1
