@@ -7,10 +7,9 @@ date: 2023-12-01 12:00:00
 categories: [Articles, Cybersecurity]
 tags: [Cybersecurity, Endpoint Security, EDR]
 image:
-  path: /assets/img/posts/img_endpoint_security_solutions/header.webp
+  path: /assets/img/posts/img_endpoint_security_solutions/header_image.webp
   alt: Header image
 ---
-
 Endpoint Security is a practice of securing entry points (laptops, desktops, IoT devices, servers, etc.) from malicious actors and malicious campaigns. It consists of multiple security approaches that complement each other, from vulnerability management and AVs to more complex and innovative EDR solutions.
 
 In recent years, organizations have switched from traditional antivirus softwares to more complex and versatile solutions called **EDR (Endpoint Detection and Response)**. In response to the growing threat landscape, EDR has rapidly evolved from detecting signature-based threats from a database of known malicious patterns to showing detective and preventative capabilities with deep visibility into every action happening at the endpoint. For a long time, additional security mechanisms were integrated within AV capabilities, making it more reactive but missing on expertise of security teams to make decisions on the severity of incident and take action when needed. Such solutions are known as **EPP (Endpoint Protection Platform)**. Many EPP vendors recognize the need for in-time actions (respond, contain, remediate and investigate) in post-incident situations, hence many include EDR/MDR/XDR capabilities in order to get more active approach:
