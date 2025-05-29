@@ -1,5 +1,5 @@
 ---
-title: Defend your Azure environment with Microsoft Defender for Cloud
+title: DDoS attacks on your Azure environment? Azure DDoS Protection got you covered
 author: Vedran
 toc: true
 toc_min_header: 1
