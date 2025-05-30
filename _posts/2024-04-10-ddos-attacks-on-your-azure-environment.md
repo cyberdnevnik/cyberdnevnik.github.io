@@ -120,7 +120,7 @@ To see if you are under a DDoS attack or not you can create **alerts** and **act
 
 Similarly, you can create **analytics rules** on your **Microsoft Sentinel** if you install “**Azure DDoS protection for Sentinel**” from the **Content hub**.
 
-For reference use this blog post from [Microsoft Tech Community - "Azure DDoS Solution for Microsoft Sentinel](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/azure-ddos-solution-for-microsoft-sentinel/3732013)
+For reference use this blog post from [Microsoft Tech Community - "Azure DDoS Solution for Microsoft Sentinel"](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/azure-ddos-solution-for-microsoft-sentinel/3732013)
 
 ## Conclusion
 
