@@ -1,15 +1,16 @@
 ---
 title: Unlock the Power of Proactive Security: Why You Need Microsoft Sentinel
-author: Vedran
+author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-05-17 12:00:00
 categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Azure, Microsoft, Sentinel, SIEM, SOAR, Cloud Security]
+tags: [ Azure, Microsoft, Sentinel, Cloud, SIEM, SOAR]
 image:
-  path: /assets/img/posts/img_why_you_need_microsoft_sentinel/image.png
+  path: /assets/img/posts/img_why_you_need_microsoft_sentinel/image.webp
   alt: Microsoft Sentinel logo
 ---
+
 If you have different data sources coming in from various types of machines, firewalls, log forwarders, network security groups, etc. wouldn’t it be great if there was a single location where you could store them all, set up a retention period for those logs and be able to respond based on suspicious activities? 
 
 Well in that case look no further than **Microsoft Sentinel**.
@@ -61,7 +62,7 @@ Steps:
 ![Sentinel workspace creation — image courtesy of Microsoft](/assets/img/posts/img_why_you_need_microsoft_sentinel/sentinelworkspace.png)
 *Sentinel workspace creation — image courtesy of Microsoft*
 
-* Voila, now you have a log analytics sworkspace and Sentinel onboarded on your environment. Congrats :)
+* Voila, now you have a log analytics workspace and Sentinel onboarded on your environment. Congrats :)
 
 ## Data Connectors
 
@@ -208,7 +209,7 @@ The best part of playbooks is that you can run them on demand or serve as an aut
 ## Conclusion
 
 Thank you for reading the article, I hope it was useful and comprehensive. If you’ve liked it -  share it around. It would mean a lot. On the same note, check out the articles written by **[Martina](https://hr.linkedin.com/in/lenicmartina99)**
-on **CrowdStrike** and different **EDR/MDR/XDR** topics and also you can check out **[Hrvoje’](https://hr.linkedin.com/in/hrvoje-filakovi%C4%87)** articles related to **Penetration testing, red teaming, and offensive security**
+on **CrowdStrike** and different **EDR/MDR/XDR** topics and also you can check out **[Hrvoje’s](https://hr.linkedin.com/in/hrvoje-filakovi%C4%87)** articles related to **Penetration testing, red teaming, and offensive security**
 
 For all the questions and all your feedback on the subject, you can find me  on [LinkedIn](https://www.linkedin.com/in/vedran-brodar/) and read the rest of our articles here on **CyberDnevnik**
 
