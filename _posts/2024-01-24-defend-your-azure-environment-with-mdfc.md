@@ -1,6 +1,6 @@
 ---
 title: Defend your Azure environment with Microsoft Defender for Cloud
-author: Vedran
+author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-01-24 12:00:00

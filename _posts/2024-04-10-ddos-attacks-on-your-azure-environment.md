@@ -1,6 +1,6 @@
 ---
 title: DDoS attacks on your Azure environment? Azure DDoS Protection got you covered
-author: Vedran
+author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-04-10 12:00:00

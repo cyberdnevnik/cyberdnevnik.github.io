@@ -1,6 +1,6 @@
 ---
 title: Cybersecurity skills gap and how to fix it
-author: Vedran
+author: vedran
 toc: true
 toc_min_header: 1
 date: 2023-11-19 12:00:00
