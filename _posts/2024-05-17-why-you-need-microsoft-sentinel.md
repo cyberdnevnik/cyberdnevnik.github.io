@@ -1,5 +1,5 @@
 ---
-title: Unlock the Power of Proactive Security: Why You Need Microsoft Sentinel
+title: Why You Need Microsoft Sentinel
 author: vedran
 toc: true
 toc_min_header: 1
