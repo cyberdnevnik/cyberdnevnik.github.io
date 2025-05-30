@@ -3,9 +3,9 @@ title: Unlock the Power of Proactive Security: Why You Need Microsoft Sentinel
 author: Vedran
 toc: true
 toc_min_header: 1
-date: 2024-04-10 12:00:00
+date: 2024-05-17 12:00:00
 categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Azure, Microsoft, DDoS, Cloud, Networking]
+tags: [Cybersecurity, Azure, Microsoft, Sentinel, SIEM, SOAR, Cloud Security]
 image:
   path: /assets/img/posts/img_why_you_need_microsoft_sentinel/image.webp
   alt: Microsoft Sentinel logo
