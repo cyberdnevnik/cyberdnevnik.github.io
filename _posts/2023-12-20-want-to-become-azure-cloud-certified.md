@@ -1,6 +1,6 @@
 ---
 title: Want to become Azure Cloud certified? Say no more!
-author: vedran
+author: Vedran
 toc: true
 toc_min_header: 1
 date: 2023-12-20 12:00:00

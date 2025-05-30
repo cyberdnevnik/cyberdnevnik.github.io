@@ -7,7 +7,7 @@ date: 2024-05-17 12:00:00
 categories: [Articles, Cybersecurity]
 tags: [Cybersecurity, Azure, Microsoft, Sentinel, SIEM, SOAR, Cloud Security]
 image:
-  path: /assets/img/posts/img_why_you_need_microsoft_sentinel/image.webp
+  path: /assets/img/posts/img_why_you_need_microsoft_sentinel/image.png
   alt: Microsoft Sentinel logo
 ---
 If you have different data sources coming in from various types of machines, firewalls, log forwarders, network security groups, etc. wouldn’t it be great if there was a single location where you could store them all, set up a retention period for those logs and be able to respond based on suspicious activities? 
@@ -44,24 +44,24 @@ Each workspace has its own data repository and configuration but might combine d
 
 Steps:
 
-1. Search for **log analytics workspaces**
+* Search for **log analytics workspaces**
 
-2. If you have a **Log Analytics contributor** you can create it as a resource as shown in the picture below, and for the initial **Pricing tier**, you can put **Pay-as-you-go** until you have a better estimation of cost for the logs ingested into that workspace.
+* If you have a **Log Analytics contributor** you can create it as a resource as shown in the picture below, and for the initial **Pricing tier**, you can put **Pay-as-you-go** until you have a better estimation of cost for the logs ingested into that workspace.
 
 ![Creation of log analytics workspace — image courtesy of Microsoft](/assets/img/posts/img_why_you_need_microsoft_sentinel/createlaw.png)
 *Creation of log analytics workspace — image courtesy of Microsoft*
 
-3. After you have created in the same manner in the **search bar** -  search for **Microsoft Sentinel**
+* After you have created in the same manner in the **search bar** -  search for **Microsoft Sentinel**
 
 ![Microsoft Sentinel search — image courtesy of Microsoft](/assets/img/posts/img_why_you_need_microsoft_sentinel/searchsentinel.png)
 *Microsoft Sentinel search — image courtesy of Microsoft*
 
-4. Open it and select **create**, from there you should select the **previously created workspace** on top of which Microsoft Sentinel will be onboarded.
+* Open it and select **create**, from there you should select the **previously created workspace** on top of which Microsoft Sentinel will be onboarded.
 
 ![Sentinel workspace creation — image courtesy of Microsoft](/assets/img/posts/img_why_you_need_microsoft_sentinel/sentinelworkspace.png)
 *Sentinel workspace creation — image courtesy of Microsoft*
 
-5. Voila, now you have a log analyitcsworkspace and Sentinel onboarded on your environment. Congrats :)
+* Voila, now you have a log analytics sworkspace and Sentinel onboarded on your environment. Congrats :)
 
 ## Data Connectors
 
