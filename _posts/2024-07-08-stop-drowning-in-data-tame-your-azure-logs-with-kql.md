@@ -42,9 +42,13 @@ There are 3 kinds of user query statements:
 
 * **[Tabular expression statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tabular-expression-statements)** — is what people usually have in mind when they talk about queries — it is generally composed of tabular data sources such as tables, tabular data operators (such as filters and projections), and optional rendering options.
 
-    StormEvents
-    | where State == "FLORIDA"
-    | count
+```
+
+StormEvents
+| where State == "FLORIDA"
+| count
+
+```
 
 The following query counts the number of records in the StormEvents table that have a value of "FLORIDA" in the `State` column. Composition is represented by pipe character (`|`), giving the statement a regular form that visually represents the flow of tabular data from left to right.
 
@@ -55,15 +59,18 @@ They are handy for:
 
 2. Defining different constraints outside of the query body for better readability
 
-3. Defining a variable once and reusing it multiple times
+3. Defining a variable once and reusing it multiple times:
 
-    let n= 10; //number
-    let place = "ILLINOIS"; //string
-    let cutoff = ago(365d); //datetime
-    StormEvents
-    | where EndTime < cutoff and place == State
-    | take n
+```
 
+let n = 10; //number
+let place = "ILLINOIS"; //string
+let cutoff = ago(365d); //datetime
+StormEvents
+| where EndTime < cutoff and place == State
+| take n
+
+```
 This above query filters the `StormEvents` table to include only those records where:
 
 The EndTime is earlier than the `cutoff` date (events that ended more than a year ago). The `State` column matches the string “ILLINOIS”.
