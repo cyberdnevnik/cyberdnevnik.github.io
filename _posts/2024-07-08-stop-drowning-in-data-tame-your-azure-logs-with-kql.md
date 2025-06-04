@@ -3,7 +3,7 @@ title: "Stop Drowning in Data: Tame Your Azure Logs with KQL"
 author: vedran
 toc: true
 toc_min_header: 1
-date: 2024-05-17 12:00:00
+date: 2024-07-08 12:00:00
 categories: [Articles, Cybersecurity]
 tags: [ Azure, Microsoft, Sentinel, Kusto Query Language, KQL]
 image:
@@ -42,7 +42,7 @@ There are 3 kinds of user query statements:
 
 * **[Tabular expression statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tabular-expression-statements)** — is what people usually have in mind when they talk about queries — it is generally composed of tabular data sources such as tables, tabular data operators (such as filters and projections), and optional rendering options.
 
-```
+```ruby
 
 StormEvents
 | where State == "FLORIDA"
@@ -61,7 +61,7 @@ They are handy for:
 
 3. Defining a variable once and reusing it multiple times:
 
-```
+```ruby
 
 let n = 10; //number
 let place = "ILLINOIS"; //string
