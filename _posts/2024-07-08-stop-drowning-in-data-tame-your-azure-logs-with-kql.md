@@ -52,7 +52,7 @@ StormEvents
 
 The following query counts the number of records in the StormEvents table that have a value of "FLORIDA" in the `State` column. Composition is represented by pipe character (`|`), giving the statement a regular form that visually represents the flow of tabular data from left to right.
 
-* **[Let statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/let-statement)** - is being used to set a variable name equal to an expression or a function. 
+* **[Let statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/let-statement)** - is being used to set a variable name equal to an expression or a function.
 They are handy for:
 
 1. Breaking up complex expressions into multiple parts which are represented by variable
@@ -71,6 +71,7 @@ StormEvents
 | take n
 
 ```
+
 This above query filters the `StormEvents` table to include only those records where:
 
 The EndTime is earlier than the `cutoff` date (events that ended more than a year ago). The `State` column matches the string “ILLINOIS”.
@@ -99,20 +100,24 @@ In these next few examples I will be using **StormEvents** table from **Samples*
 
 So here is the sample of the KQL query workflow:
 
-    StormEvents
-    | where StartTime between (datetime(2007-01-01) ..datetime(2007-01-12))
-    | where EventType == "Flood" or EventType has "Thunderstorm"
-    | summarize Count = count() by State
-    | render barchart
+```ruby
+
+StormEvents
+| where StartTime between (datetime(2007-01-01) ..datetime(2007-01-12))
+| where EventType == "Flood" or EventType has "Thunderstorm"
+| summarize Count = count() by State
+| render barchart
+
+```
 
 1. On the first line, I have selected **StormEvents** table
 
 2. All the new lines start with “`|`” as I mentioned above I filtered out the logs between the 1st of January and 12th of January, 2007 with between operator
-    
+
 3. In line 3 I filter it out even more to see just where **EventType** is either “Flood” or **has** “Thunderstorm” in the string.
-    
+
 4. On line 4 with the operator summarize I count the number of all the records by each state
-    
+
 5. Finally, I use render **barchart** to visualize data as a graph for each State
 
 ![Result visualization of the number of Floods and Thunderstorms per State](/assets/img/posts/img_stop_drowning_in_data_tame_your_azure_logs_with_kql/resultperstate.png)
@@ -120,10 +125,14 @@ So here is the sample of the KQL query workflow:
 
 If for example, I wanted different results to just show me **StartTime, State, EventType**, and **EventNarrative** to get more information about what happened I would write something like this:
 
-    StormEvents
-    | where StartTime between (datetime(2007-01-01) ..datetime(2007-01-12))
-    | where EventType == "Flood" or EventType has "Thunderstorm"
-    | project StartTime, State, EventType,  EventNarrative
+```ruby
+
+StormEvents
+| where StartTime between (datetime(2007-01-01) ..datetime(2007-01-12))
+| where EventType == "Flood" or EventType has "Thunderstorm"
+| project StartTime, State, EventType,  EventNarrative
+
+```
 
 As a result, I can see 153 records:
 
@@ -137,11 +146,11 @@ This was just a short introduction to the basic capabilities of KQL, below I wil
 * [KQL best practices](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/best-practices)
 
 * [SQL to KQL cheat sheet](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/sql-cheat-sheet)
-    
+
 * [KQL quick reference](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/kql-quick-reference)
-    
+
 * [Must Learn KQL with all the documentation provided by Rod Trent](https://github.com/rod-trent/MustLearnKQL)
-    
+
 * [Kusto Detective Agency](https://detective.kusto.io/) — Game-like experience where you are trying to solve cases by using KQL
 
 All of those links were quite useful when I started, but as you can see as long you know what your requirements are, and what you are aiming to find you can narrow it down to that specific log.
