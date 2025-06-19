@@ -61,7 +61,7 @@ Before proceeding any further, I want you to look at the image above and see if 
 
 A private cloud consists of cloud computing resources used exclusively by one business or organization. The private cloud can be physically located at **your organization’s on-site data center**, or a third-party service provider can host it. But in a private cloud, the **services and infrastructure are always maintained on a private network and the hardware and software are dedicated solely to your organization**.
 
-** Advantages of a private cloud**:
+**Advantages of a private cloud**:
 
 * **More flexibility** — your organization can customize its cloud environment to meet specific business needs.
     
@@ -97,7 +97,7 @@ A hybrid cloud is a type of [cloud computing](https://azure.microsoft.com/en-us/
     
 * **Ease** — transitioning to the cloud doesn’t have to be overwhelming because you can migrate gradually — phasing in workloads over time.
 
-**Serverless**
+### Serverless
 
 Enables developers to build applications faster by eliminating the need for them to manage infrastructure. With serverless applications, the **cloud service provider automatically provisions, scales, and manages the infrastructure required to run the code**. 
 
@@ -170,11 +170,7 @@ Examples of Region pairs:
     
     North Europe (Ireland) — West Europe (Netherlands) etc.
 
-* **Availability zones** — separated groups of data centers within a region. Availability zones are close enough to have low-latency connections to other availability zones. They’re connected by a high-performance network with a round-trip latency of less than 2ms. 
-
-However, availability zones are far enough apart to **reduce the likelihood that more than one will be affected by local outages or weather**. Availability zones have independent power, cooling, and networking infrastructure. 
-
-**They’re designed so that if one zone experiences an outage, then regional services, capacity, and high availability are supported by the remaining zones**. They help your data stay synchronized and accessible when things go wrong.
+* **Availability zones** — separated groups of data centers within a region. Availability zones are close enough to have low-latency connections to other availability zones. They’re connected by a high-performance network with a round-trip latency of less than 2ms. However, availability zones are far enough apart to **reduce the likelihood that more than one will be affected by local outages or weather**. Availability zones have independent power, cooling, and networking infrastructure. **They’re designed so that if one zone experiences an outage, then regional services, capacity, and high availability are supported by the remaining zones**. They help your data stay synchronized and accessible when things go wrong.
 
 ![Visualization of Availability zones and cross-replication of data for disaster recovery protection — Image courtesy of Microsoft](/assets/img/posts/img_az900_study_guide_part1/disasterrecovery.png)
 *Visualization of Availability zones and cross-replication of data for disaster recovery protection — Image courtesy of Microsoft*
