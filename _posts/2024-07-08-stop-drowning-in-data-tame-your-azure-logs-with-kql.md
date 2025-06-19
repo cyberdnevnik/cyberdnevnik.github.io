@@ -42,12 +42,10 @@ There are 3 kinds of user query statements:
 
 * **[Tabular expression statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tabular-expression-statements)** — is what people usually have in mind when they talk about queries — it is generally composed of tabular data sources such as tables, tabular data operators (such as filters and projections), and optional rendering options.
 
-```ruby
-
+```sql
 StormEvents
 | where State == "FLORIDA"
 | count
-
 ```
 
 The following query counts the number of records in the StormEvents table that have a value of "FLORIDA" in the `State` column. Composition is represented by pipe character (`|`), giving the statement a regular form that visually represents the flow of tabular data from left to right.
@@ -61,15 +59,13 @@ They are handy for:
 
 3. Defining a variable once and reusing it multiple times:
 
-```ruby
-
+```sql
 let n = 10; //number
 let place = "ILLINOIS"; //string
 let cutoff = ago(365d); //datetime
 StormEvents
 | where EndTime < cutoff and place == State
 | take n
-
 ```
 
 This above query filters the `StormEvents` table to include only those records where:
@@ -100,14 +96,12 @@ In these next few examples I will be using **StormEvents** table from **Samples*
 
 So here is the sample of the KQL query workflow:
 
-```ruby
-
+```sql
 StormEvents
 | where StartTime between (datetime(2007-01-01) ..datetime(2007-01-12))
 | where EventType == "Flood" or EventType has "Thunderstorm"
 | summarize Count = count() by State
 | render barchart
-
 ```
 
 1. On the first line, I have selected **StormEvents** table
@@ -125,13 +119,11 @@ StormEvents
 
 If for example, I wanted different results to just show me **StartTime, State, EventType**, and **EventNarrative** to get more information about what happened I would write something like this:
 
-```ruby
-
+```sql
 StormEvents
 | where StartTime between (datetime(2007-01-01) ..datetime(2007-01-12))
 | where EventType == "Flood" or EventType has "Thunderstorm"
 | project StartTime, State, EventType,  EventNarrative
-
 ```
 
 As a result, I can see 153 records:
