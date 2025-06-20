@@ -86,7 +86,7 @@ Microsoft Global Azure and Azure Government offer the following three passwordle
 ![Visualization of external identities with both B2B and B2C scenarios — image courtesy of Microsoft](/assets/img/posts/img_az900_study_guide_part2/externalidentities.png)
 *Visualization of external identities with both B2B and B2C scenarios — image courtesy of Microsoft*
 
-### Azure conditional access
+## Azure conditional access
 
 Conditional access is a tool that Microsoft Entra ID uses to **allow or deny** access to resources **based on identity signals**.
 
@@ -97,7 +97,7 @@ During sign-in, Conditional Access collects signals from the user, makes decisio
 ![Conditional access visualization — image courtesy of Microsoft](/assets/img/posts/img_az900_study_guide_part2/conditionalaccess.png)
 *Conditional access visualization — image courtesy of Microsoft*
 
-### Azure Role-based access control (RBAC)
+## Azure Role-based access control (RBAC)
 
 Azure provides built-in roles that describe common access rules for cloud resources. You can also define your own roles. Each role has an associated **set of access permissions** that relate to that role. When you assign individuals or groups to one or more roles, they receive all the associated access permissions.
 
@@ -130,7 +130,7 @@ For example:
 
 Azure RBAC is enforced through **Azure Resource Manager (ARM)**.
 
-### Zero Trust Model
+## Zero Trust Model
 
 Zero Trust is a security model that assumes the worst-case scenario and protects resources with that expectation. 
 
@@ -147,7 +147,7 @@ To address this new world of computing, Microsoft highly recommends the Zero Tru
 ![Zero Trust model visualization — image courtesy of Microsoft](/assets/img/posts/img_az900_study_guide_part2/zerotrust.png)
 *Zero Trust model visualization — image courtesy of Microsoft*
 
-### Defense-in-depth-model
+## Defense-in-depth-model
 
 The objective of defense-in-depth is to protect information and prevent it from being stolen by those who aren’t authorized to access it.
 
@@ -174,7 +174,7 @@ Here’s a brief overview of the role of each layer:
     
 * The **data layer** controls access to business and customer data that you need to protect.
 
-### Microsoft Defender for Cloud
+## Microsoft Defender for Cloud
 
 For this one I won't go much into details, I will just post here an article that I already wrote dedicated fully to Defender for Cloud and let you dig right into it ;)
 
