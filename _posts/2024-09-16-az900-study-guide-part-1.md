@@ -185,6 +185,8 @@ In part 2 of this guide, I will provide information about Identity, access, and 
 
 Part 2 can be found here:
 
+[The Beginner’s Path to Azure: A Complete AZ-900 Study Guide — Part 2](https://cyberdnevnik.github.io/posts/az900-study-guide-part-2/)
+
 For all the questions and all your feedback on the subject, you can find me  on [LinkedIn](https://www.linkedin.com/in/vedran-brodar/) and read the rest of our articles here on **CyberDnevnik**
 
 Cheers,  

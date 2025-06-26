@@ -22,7 +22,7 @@ If you haven't read part 2 here is the link - [The Beginner's Path to Azure: A C
 To get the most out of Azure, you need a way to interact with the Azure environment, the management groups, subscriptions, resource groups, resources, and so on. Azure provides multiple tools for managing your environment, including the following:
 
 * **Azure portal** — a web-based, unified console that provides an alternative to command-line tools. With the Azure portal, you can manage your Azure subscription by using a graphical user interface
-    
+ 
 * **Azure Cloud Shell** — browser-based shell tool that allows you to create, configure, and manage Azure resources using a shell. Azure Cloud Shell supports both Azure PowerShell and the Azure Command Line Interface (CLI), which is a Bash shell.
 
 ![Azure Cloud Shell icon on Azure portal — image courtesy of Microsoft](/assets/img/posts/img_az900_study_guide_part3/cloudshell.png)
@@ -94,8 +94,6 @@ Azure Monitor is a platform for collecting data on your resources, analyzing tha
 * **Azure Monitor alerts** — an automated way to stay informed when Azure Monitor detects a threshold being crossed. You set the alert conditions, and the notification actions, and then Azure Monitor Alerts notifies you when an alert is triggered
 
 * **Application Insights** — monitors your web applications. Application Insights is capable of monitoring applications that are running in Azure, on-premises, or in a different cloud environment.
-
-
 
 ## Conclusion
 

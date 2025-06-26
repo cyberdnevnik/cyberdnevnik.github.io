@@ -307,6 +307,8 @@ In this part focus was on identity, access, and security, Azure management, and 
 
 Also here is the link to part 3 of the study guide:
 
+[The Beginner’s Path to Azure: A Complete AZ-900 Study Guide — Part 3](https://cyberdnevnik.github.io/posts/az900-study-guide-part-3/)
+
 
 Cheers,  
 Vedran
