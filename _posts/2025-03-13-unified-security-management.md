@@ -7,7 +7,7 @@ date: 2025-03-13 12:00:00
 categories: [Articles, Cybersecurity]
 tags: [ Azure, Microsoft, XDR, Unified, Defender for Cloud, Sentinel]
 image:
-  path: /assets/img/posts/img_xdr_unified_security_management/image.webp
+  path: /assets/img/posts/img_unified_security_management/image.webp
   alt: Microsoft Unified Security Operations platform
 ---
 
