@@ -15,7 +15,7 @@ This is part 3 and the last part of the exam guide for Azure Fundamentals.
 
 For the last topic, we will cover all the Tools for managing and deploying Azure resources along with Azure monitoring tools.
 
-If you haven't read part 2 here is the link - [The Beginner's Path to Azure: A Complete AZ-900 Study Guide - Part 2 ](https://cyberdnevnik.github.io/posts/az900-study-guide-part-2/)
+If you haven't read part 2 here is the link - [The Beginner's Path to Azure: A Complete AZ-900 Study Guide - Part 2](https://cyberdnevnik.github.io/posts/az900-study-guide-part-2/)
 
 ## Tools for managing and deploying Azure resources
 
