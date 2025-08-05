@@ -5,7 +5,7 @@ order: 5
 title: About
 ---
 
-# The story
+# The storyyyyy
 
 ![image1](/tabs/img_about/image1.jpeg){: width="600" height="600" .w-50 .left}
 At CyberDnevnik, our mission is to provide top-notch computer security services to small and medium-sized businesses. We understand the importance of data security and aim to help our clients protect their valuable information from cyber threats.
