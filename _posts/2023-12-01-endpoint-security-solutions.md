@@ -4,8 +4,8 @@ author: martina
 toc: true
 toc_min_header: 1
 date: 2023-12-01 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Endpoint Security, EDR]
+categories: [Articles, Endpoint Security]
+tags: [EDR/MDR/XDR]
 image:
   path: /assets/img/posts/img_endpoint_security_solutions/header_image.webp
   alt: Header image

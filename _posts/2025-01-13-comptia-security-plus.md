@@ -4,8 +4,8 @@ author: martina
 toc: true
 toc_min_header: 1
 date: 2025-01-13 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Certificate, CompTIA]
+categories: [Articles, Certification]
+tags: [CompTIA]
 image:
   path: /assets/img/posts/img_comptia_security_plus/comptia-security-plus.webp
   alt: Header image

@@ -16,7 +16,7 @@ timezone:
 
 title: CyberDnevnik # the main title
 
-tagline: Journaling through cyberspace # it will display as the subtitle
+tagline: /'dnɛv.nik/ m. diary, journal # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A comprehensive cybersecurity blog featuring in-depth content on ethical hacking, cloud security, cybersecurity management, and security best practices, along with insights into the latest trends in information security. In addition to technical topics, this blog also includes personal journal-style articles sharing real-world experiences, daily challenges, achievements, and lessons learned from within the cybersecurity field.

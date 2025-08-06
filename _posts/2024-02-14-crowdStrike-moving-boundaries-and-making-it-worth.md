@@ -4,8 +4,8 @@ author: martina
 toc: true
 toc_min_header: 1
 date: 2024-02-14 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Endpoint Security, EDR]
+categories: [Articles, Endpoint Security]
+tags: [CrowdStrike, EDR/MDR/XDR]
 image:
   path: /assets/img/posts/img_crowdstrike_moving_boundaries/Header.webp
   alt: CrowdStrike logo
