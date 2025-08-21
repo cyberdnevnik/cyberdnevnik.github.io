@@ -170,9 +170,9 @@ collections:
   tabs:
     output: true
     sort_by: order
-  articles:
+  journals:
     output: true
-    permalink: /articles/:title/
+    permalink: /journals/:title/
 
 defaults:
   - scope:
@@ -196,9 +196,14 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: "_articles"
+      path: "_journals"
     values:
       layout: post
+  - scope:
+      path: "_journals"
+    values:
+      layout: post
+      category: Journals
 
 sass:
   style: compressed
