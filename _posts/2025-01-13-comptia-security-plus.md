@@ -4,7 +4,7 @@ author: martina
 toc: true
 toc_min_header: 1
 date: 2025-01-13 12:00:00
-categories: [Articles, Certification]
+categories: [Articles, Certifications]
 tags: [CompTIA]
 image:
   path: /assets/img/posts/img_comptia_security_plus/comptia-security-plus.webp
