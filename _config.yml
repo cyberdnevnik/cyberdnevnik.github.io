@@ -166,13 +166,18 @@ kramdown:
       line_numbers: true
       start_line: 1
 
+#collections:
+#  tabs:
+#    output: true
+#    sort_by: order
+#  journals:
+#    output: true
+#    permalink: /journals/:title/
+
 collections:
   tabs:
     output: true
     sort_by: order
-  journals:
-    output: true
-    permalink: /journals/:title/
 
 defaults:
   - scope:
@@ -195,12 +200,12 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-  - scope:
-      path: "_journals"
-    values:
-      layout: post
-      comments: true
-      toc: true
+ # - scope:
+ #     path: "_journals"
+ #   values:
+ #     layout: post
+ #     comments: true
+ #     toc: true
 
 sass:
   style: compressed
