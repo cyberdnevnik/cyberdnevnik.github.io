@@ -172,7 +172,7 @@ collections:
     sort_by: order
   journals:
     output: true
-    permalink: /journals/:slug/
+    permalink: /journals/:title/
 
 defaults:
   - scope:
