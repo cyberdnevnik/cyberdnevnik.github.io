@@ -199,11 +199,8 @@ defaults:
       path: "_journals"
     values:
       layout: post
-  - scope:
-      path: "_journals"
-    values:
-      layout: post
-      category: Journals
+      comments: true
+      toc: true
 
 sass:
   style: compressed
