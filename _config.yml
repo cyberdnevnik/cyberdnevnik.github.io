@@ -166,18 +166,13 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-#collections:
-#  tabs:
-#    output: true
-#    sort_by: order
-#  journals:
-#    output: true
-#    permalink: /journals/:title/
-
 collections:
   tabs:
     output: true
-    sort_by: order
+    sort_by: order 
+  journals:
+    output: true
+    permalink: /journals/:title/
 
 defaults:
   - scope:
@@ -238,3 +233,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+  collections: ['posts', 'journals']

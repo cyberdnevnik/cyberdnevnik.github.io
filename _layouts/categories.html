@@ -1,0 +1,117 @@
+---
+layout: page
+# All the Categories of posts
+---
+
+{% include lang.html %}
+
+{% assign HEAD_PREFIX = 'h_' %}
+{% assign LIST_PREFIX = 'l_' %}
+{% assign group_index = 0 %}
+
+<div class="card categories">
+  <div class="card-header d-flex justify-content-between hide-border-bottom">
+    <span class="ms-2">
+      <i class="far fa-folder-open fa-fw"></i>
+      <a class="mx-2" href="#journals-categories" data-bs-toggle="collapse" aria-expanded="true">
+        Journals
+      </a>
+      {% assign all_journal_categories = '' | split: '' %}
+      {% for post in site.journals %}
+        {% for category in post.categories %}
+          {% unless all_journal_categories contains category %}
+            {% assign all_journal_categories = all_journal_categories | push: category %}
+          {% endunless %}
+        {% endfor %}
+      {% endfor %}
+      {% assign total_journal_posts = site.journals | size %}
+      <span class="text-muted small font-weight-light">
+        {{ all_journal_categories.size }}
+        {% if all_journal_categories.size > 1 %}
+          {{ site.data.locales[lang].categories.category_measure.plural | default: site.data.locales[lang].categories.category_measure }}
+        {% else %}
+          {{ site.data.locales[lang].categories.category_measure.singular | default: site.data.locales[lang].categories.category_measure }}
+        {% endif -%},
+        {{ total_journal_posts }}
+        {% if total_journal_posts > 1 %}
+          {{ site.data.locales[lang].categories.post_measure.plural | default: site.data.locales[lang].categories.post_measure }}
+        {% else %}
+          {{ site.data.locales[lang].categories.post_measure.singular | default: site.data.locales[lang].categories.post_measure }}
+        {% endif %}
+      </span>
+    </span>
+    <a href="#journals-categories" data-bs-toggle="collapse" aria-expanded="true" class="category-trigger hide-border-bottom">
+      <i class="fas fa-fw fa-angle-down"></i>
+    </a>
+  </div>
+  <div id="journals-categories" class="collapse show" aria-expanded="true">
+    <ul class="list-group">
+      {% assign filtered_journals = all_journal_categories | where_exp: 'item', 'item != "journals"' %}
+      {% assign sorted_filtered_journals = filtered_journals | sort %}
+      {% for category in sorted_filtered_journals %}
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          {% capture _category_url %}/categories/{{ category | slugify | url_encode }}/{% endcapture %}
+          <a href="{{ _category_url | relative_url }}" class="mx-2">{{ category }}</a>
+          {% assign posts_in_category = site.journals | where_exp: 'item', 'item.categories contains category' %}
+          <span class="text-muted small font-weight-light">{{ posts_in_category.size }} posts</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+{% assign all_categories = site.categories | sort %}
+<div class="card categories">
+  <div class="card-header d-flex justify-content-between hide-border-bottom">
+    <span class="ms-2">
+      <i class="far fa-folder-open fa-fw"></i>
+      <a class="mx-2" href="#articles-categories" data-bs-toggle="collapse" aria-expanded="true">
+        Articles
+      </a>
+      {% assign all_article_categories = '' | split: '' %}
+      {% for post in site.posts %}
+        {% for category in post.categories %}
+          {% unless all_article_categories contains category %}
+            {% assign all_article_categories = all_article_categories | push: category %}
+          {% endunless %}
+        {% endfor %}
+      {% endfor %}
+      {% assign total_article_posts = site.posts | size %}
+      <span class="text-muted small font-weight-light">
+        {{ all_article_categories.size }}
+        {% if all_article_categories.size > 1 %}
+          {{ site.data.locales[lang].categories.category_measure.plural | default: site.data.locales[lang].categories.category_measure }}
+        {% else %}
+          {{ site.data.locales[lang].categories.category_measure.singular | default: site.data.locales[lang].categories.category_measure }}
+        {% endif -%},
+        {{ total_article_posts }}
+        {% if total_article_posts > 1 %}
+          {{ site.data.locales[lang].categories.post_measure.plural | default: site.data.locales[lang].categories.post_measure }}
+        {% else %}
+          {{ site.data.locales[lang].categories.post_measure.singular | default: site.data.locales[lang].categories.post_measure }}
+        {% endif %}
+      </span>
+    </span>
+    <a href="#articles-categories" data-bs-toggle="collapse" aria-expanded="true" class="category-trigger hide-border-bottom">
+      <i class="fas fa-fw fa-angle-down"></i>
+    </a>
+  </div>
+  <div id="articles-categories" class="collapse show" aria-expanded="true">
+    <ul class="list-group">
+      {% assign filtered_articles = all_article_categories | where_exp: 'item', 'item != "Articles"' %}
+      {% assign sorted_filtered_articles = filtered_articles | sort %}
+      {% for category in sorted_filtered_articles %}
+        {% assign posts_of_category = site.categories[category] %}
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          {% capture _category_url %}/categories/{{ category | slugify | url_encode }}/{% endcapture %}
+          <a href="{{ _category_url | relative_url }}" class="mx-2">{{ category }}</a>
+          <span class="text-muted small font-weight-light">{{ posts_of_category.size }} posts</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
