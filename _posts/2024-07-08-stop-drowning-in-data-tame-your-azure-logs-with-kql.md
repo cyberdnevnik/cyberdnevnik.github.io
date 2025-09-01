@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-07-08 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [ Azure, Microsoft, Sentinel, Kusto Query Language, KQL]
+categories: [Articles, Cloud Security]
+tags: [Cloud Security, Azure, Microsoft, Sentinel, Kusto Query Language, KQL]
 image:
   path: /assets/img/posts/img_stop_drowning_in_data_tame_your_azure_logs_with_kql/image.webp
   alt: Kusto Query Language (KQL) logo

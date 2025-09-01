@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-05-17 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [ Azure, Microsoft, Sentinel, Cloud, SIEM, SOAR]
+categories: [Articles, Cloud Security]
+tags: [ Cloud Security, Azure, Microsoft, Sentinel, Cloud, SIEM, SOAR]
 image:
   path: /assets/img/posts/img_why_you_need_microsoft_sentinel/image.webp
   alt: Microsoft Sentinel logo

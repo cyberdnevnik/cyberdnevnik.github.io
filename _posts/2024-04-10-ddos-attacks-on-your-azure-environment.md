@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-04-10 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Azure, Microsoft, DDoS, Cloud, Networking]
+categories: [Articles, Cloud Security]
+tags: [Cloud Security, Azure, Microsoft, DDoS, Cloud, Networking]
 image:
   path: /assets/img/posts/img_ddos_attacks_on_your_azure_environment/image.webp
   alt: Azure DDoS protection plan — image courtesy of Microsoft

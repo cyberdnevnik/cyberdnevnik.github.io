@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-08-03 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [ Azure, Microsoft, Key Vault, Secrets, Keys, Certificates]
+categories: [Articles, Cloud Security]
+tags: [ Cloud Security, Azure, Microsoft, Key Vault]
 image:
   path: /assets/img/posts/img_azure_key_vaults_for_newbies_secure_your_secrets_with_ease/image.webp
   alt: Azure Key Vault logo

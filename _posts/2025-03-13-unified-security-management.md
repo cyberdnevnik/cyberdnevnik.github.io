@@ -4,7 +4,7 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2025-03-13 12:00:00
-categories: [Articles, Cybersecurity]
+categories: [Articles, Cloud Security]
 tags: [ Azure, Microsoft, XDR, Unified, Defender for Cloud, Sentinel]
 image:
   path: /assets/img/posts/img_unified_security_management/image.webp

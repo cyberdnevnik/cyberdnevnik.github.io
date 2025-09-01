@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2023-11-19 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Red Team, Blue Team]
+categories: [Articles]
+tags: [Red Team, Blue Team]
 image:
   path: /assets/img/posts/img_cybersecurity_skills_gap/cybersecurity_skills_in_high_demand.webp
   alt: Cybersecurity Skills in High Demand — image courtesy of Fortinet and World Economic Forum

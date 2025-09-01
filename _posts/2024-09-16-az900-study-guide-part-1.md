@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-09-16 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [ Azure, Microsoft, Fundamentals, AZ-900, Study, Guide]
+categories: [Articles, Cloud Security]
+tags: [ Cloud Security, Azure, Microsoft, Fundamentals, AZ-900, Study, Guide, Certificate]
 image:
   path: /assets/img/posts/img_az900_study_guide_part1/image.webp
   alt: Azure Fundamentals Certificate Logo

@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2024-01-24 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Azure, Microsoft, Defender for Cloud, Cloud Security, CNAPP, CWPP, CSPM, Regulatory Compliance]
+categories: [Articles, Cloud Security]
+tags: [Azure, Microsoft, Defender for Cloud, Cloud Security, CNAPP, CWPP, CSPM, Regulatory Compliance]
 image:
   path: /assets/img/posts/img_defend_azure_environment_with_mdfc/image.webp
   alt: Microsoft Defender for Cloud logo — Image courtesy of Microsoft

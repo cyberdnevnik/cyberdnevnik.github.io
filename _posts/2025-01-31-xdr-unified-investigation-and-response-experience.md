@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2025-01-31 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [ Azure, Microsoft, XDR,Unified, SOC]
+categories: [Articles, Cloud Security]
+tags: [ Azure, Cloud Security, Microsoft, XDR,Unified, SOC]
 image:
   path: /assets/img/posts/img_xdr_unified_investigation_and_response_experience/image.webp
   alt: Microsoft Defender XDR architecture

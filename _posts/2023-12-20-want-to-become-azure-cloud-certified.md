@@ -4,8 +4,8 @@ author: vedran
 toc: true
 toc_min_header: 1
 date: 2023-12-20 12:00:00
-categories: [Articles, Cybersecurity]
-tags: [Cybersecurity, Azure, Microsoft, Certification, Cloud, Cloud Security]
+categories: [Articles, Cloud Security]
+tags: [Azure, Microsoft, Certificate, Cloud Security]
 image:
   path: /assets/img/posts/img_want_to_become_cloud_certified/image.webp
   alt: Azure Certification paths — courtesy of David Cervigón Luna
