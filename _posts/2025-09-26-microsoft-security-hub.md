@@ -33,7 +33,7 @@ Also, all the services I work with day to day can be accessed from that portal:
 
 * [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/)
 
-* [Microsoft Defender](https://learn.microsoft.com/en-us/defender/) 
+* [Microsoft Defender](https://learn.microsoft.com/en-us/defender/)
 
 * [Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/)
 
