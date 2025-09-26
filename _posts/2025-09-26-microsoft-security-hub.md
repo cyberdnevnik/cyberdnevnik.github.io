@@ -21,9 +21,9 @@ Of course, it's an overstatement, it felt like it - but why? Well, just clic
 
 Because everything was available from **one page**, all the documentation related to the Security services was there.
 
-If you are a beginner and you want to **kickstart** your Cybersecurity Journey with achievable milestones  -  [Security 101: Cybersecurity for Beginners](https://learn.microsoft.com/en-us/plans/odm7f0p5j6opq5?wt.mc_id=securityhub_security101_webpage_cnl#) ✅
+If you are a beginner and you want to **kickstart** your Cybersecurity Journey with achievable milestones  -  [Security 101: Cybersecurity for Beginners](https://learn.microsoft.com/en-us/plans/odm7f0p5j6opq5?wt.mc_id=securityhub_security101_webpage_cnl#)
 
-If you don't want to read, but you would like to participate in more **instructor-led hands-on sessions**, fret not - [Microsoft Virtual Training days](https://www.microsoft.com/en-us/events/category/microsoft-virtual-training-days?filters=delivery-language%3Aenglish&scenario=mvtd) got you covered ✅
+If you don't want to read, but you would like to participate in more **instructor-led hands-on sessions**, fret not - [Microsoft Virtual Training days](https://www.microsoft.com/en-us/events/category/microsoft-virtual-training-days?filters=delivery-language%3Aenglish&scenario=mvtd) got you covered
 
 With Virtual training days Microsoft Certified instructor delivers the training with **presentations, demo's and Q&A**. Depending on the training, some include **hands-on labs** for practical experience.
 
@@ -74,7 +74,7 @@ Collection created specifically for getting your skills up and running as fast a
 
 In case everything I've mentioned above isn't enough, there are engagements with communities, CISO workshops, the security tech community, the Security Blog, and the Security YouTube channel.
 
-This gives you freedom to explore all of Microsoft security in a way that works best for you ;)
+This gives you freedom to explore all of Microsoft security in a way that works best for you.
 
 If you want to read more, please follow me and my colleagues on our Cyberdnevnik website and publication.
 Thank you for reading. 
